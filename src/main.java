@@ -11,3 +11,9 @@ public static void main(Strings []args) {
   int result = num1 + num2;
   System.out.print(result);
 }  
+
+// Adding Subtraction function
+public static int sub(int num1, int num2) {
+  int result = num1 - num2;
+  return result;
+}
