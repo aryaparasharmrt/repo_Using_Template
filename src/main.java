@@ -17,3 +17,17 @@ public static int sub(int num1, int num2) {
   int result = num1 - num2;
   return result;
 }
+
+// Check if number is even or odd
+public static String evenOrOdd(int num) {
+
+  boolean flag = false;
+  if(num % 2 == 0) {
+      flag = true;
+  }
+
+  if(flag) {
+       return "Number is Even"
+  }
+  return "Number is Odd"
+}
